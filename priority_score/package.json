@@ -1,0 +1,12 @@
+{
+  "name": "priority-inbox",
+  "version": "1.0.0",
+  "description": "Priority Inbox - Top N unread notifications by weight and recency",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}
