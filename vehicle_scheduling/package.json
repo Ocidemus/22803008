@@ -1,0 +1,12 @@
+{
+  "name": "vehicle-scheduling",
+  "version": "1.0.0",
+  "description": "Vehicle Maintenance Scheduler using Knapsack DP",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}
