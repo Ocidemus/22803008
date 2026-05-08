@@ -5,7 +5,7 @@ const LOG_FILE = path.join(__dirname, 'app.log');
 
 function log(level, message, meta = {}) {
   const entry = {
-    timestamp: getTimestamp(),
+    timestamp: gettime(),
     level,
     message,
     ...(Object.keys(meta).length > 0 && { meta })
@@ -19,7 +19,7 @@ function log(level, message, meta = {}) {
     process.stdout.write(`${prefix} ${message}\n`);
   }
 }
-function getTimestamp() {
+function gettime() {
   return new Date().toISOString();
 }
 
